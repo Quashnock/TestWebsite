@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h2, h4, p{
+    margin: 0;
+    padding: 20;
+}
+#card{
+    width: 600px;
+    height: 400px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    overflow: hidden;
+    border-radius: 5px;
+}
+#top-section{
+    width: 100%;
+    height: 190px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#bottom-section{
+    width: 100%;
+    height: 210px;
+}
+#bottom-right-section{
+    display: inline-block;
+    width: 50%;
+    height: 210px;
+    background-color: #2EBFBD;
+    padding: 20px;
+    color: white;
+}
+#bottom-left-section{
+    display: inline-block;
+    width: 50%;
+    height: 210px;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+.topTitle{
+    color:#2ab2af;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight:bold;
+}
+.thirtyDay{
+    color: #c0df34;
+    line-height:  35px;
+    font-size: 20px;
+}
+.greyText{
+    color: #98a6bd;
+    font-size: 18px;
+}
+button{
+    background-color: #c0df34;
+    width: 85%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.button{
+    text-align:center;
+}
+.priceFrequency{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.perMonth{
+    display: inline-block;
+    font-weight: 0;
+    top: -4px;
+    opacity: 0.7;
+    position: relative;
+}
+#bottom-left-section p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#bottom-right-section ul{
+    list-style: none;
+    position: relative;
+    left: -35px;
+    top: -5px;
+    opacity: 0.7;
+}
+
+
+
